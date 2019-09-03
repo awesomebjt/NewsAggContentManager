@@ -1,6 +1,9 @@
 from django.contrib import admin
-from .models import PublicationFeed, Post
+from .models import *
 
 
-admin.site.register(PublicationFeed)
-admin.site.register(Post)
+admin.site.register(RSSFeed)
+admin.site.register(Item)
+admin.site.register(Advertisement)
+admin.site.register(Site)
+
